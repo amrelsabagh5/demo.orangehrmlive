@@ -7,8 +7,8 @@ const Admin=new Login
 describe("Auth Admin",function(){
 before(function(){
     Admin.visit();
-Admin.username('Admin')
-Admin.pass('admin123')
+Admin.username('')
+Admin.pass('')
 Admin.click_login('')
 
 })
